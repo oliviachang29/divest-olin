@@ -1,0 +1,37 @@
+ * {
+    font-family: Apercu Mono;
+}
+
+h1 {
+    font-family: Apercu;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: -0.4px;
+    margin-bottom: 3rem;
+}
+
+.mono {
+    color: $gray; 
+}
+
+p, li {
+    font-size: 17px;
+    color: black;
+    letter-spacing: -0.4px;
+}
+
+.p-block {
+    margin-bottom: 2rem;
+}
+
+a {
+    color: black;
+    &:hover {
+        font-style: italic;
+    }
+}
+
+.copyright {
+    color: $gray-lightest
+}
